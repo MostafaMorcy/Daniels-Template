@@ -14,6 +14,6 @@
 * modals ,collapse  
 *owl carsoul
 
-![Screenshot](Web capture (Daniels).jpeg)
+![My Image](Web%20capture%20(Daniels).jpeg)
 
 live demo link :  https://mostafamorcy.github.io/Daniels-Template/
