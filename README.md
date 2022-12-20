@@ -12,7 +12,7 @@
 * _jQuery
 * Bootstrap5
 * modals ,collapse  
-*owl carsoul
+*owal carsoul
 
 ![My Image](Web%20capture%20(Daniels).jpeg)
 
