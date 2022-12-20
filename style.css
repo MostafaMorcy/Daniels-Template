@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6, .logo {
 content: "";
 animation: typing 6s   infinite  ;
 }
-@keyframes on
 @keyframes typing 
 {
 0%{content:"";}
