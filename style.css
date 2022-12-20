@@ -1,0 +1,207 @@
+:root{
+    --main-color:white;
+    --second-color:#748182;
+    --three-color:black;
+    --four-color:#dee2e6;
+ 
+}
+.bac-gray{
+background-color: var(--four-color);
+
+}
+.gray-color{
+    color: var(--second-color);
+}
+.black-bar{
+   background-color: var(--three-color); 
+}
+
+.text-color{
+    color: var(--main-color);
+}
+header{
+    background-image: url(img/bg.jpg);
+    background-size: 100% 100% ;
+    background-position: center center;
+    }  
+.overcolor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0 , 0, 0.7);
+}
+h1, h2, h3, h4, h5, h6, .logo {
+    font-family: 'Montserrat', sans-serif;
+}
+.header-anim h1::after{
+content: "";
+animation: typing 6s   infinite  ;
+}
+@keyframes on
+@keyframes typing 
+{
+0%{content:"";}
+2%{content:"D";}
+4%{content:"De";}
+6%{content:"Des";}
+8%{content:"Desi";}
+10%{content:"Desig";}
+12%{content:"Design";}
+14%{content:"Designe";}
+16%{content:"Designer";}
+18%{content:"Designe";}
+20%{content:"Design";}
+22%{content:"Desig";}
+24%{content:"Desi";}
+26%{content:"Des";}
+28%{content:"De";}
+30%{content:"D";}
+32%{content:"";}
+34%{content:"D";}
+36%{content:"De";}
+38%{content:"Dev";}
+40%{content:"Deve";}
+42%{content:"Devel";}
+44%{content:"Develo";}
+46%{content:"Develop";}
+48%{content:"Develope";}
+50%{content:"Developer";}
+54%{content:"Develope";}
+56%{content:"Develop";}
+58%{content:"Develo";}
+60%{content:"Devel";}
+62%{content:"Deve";}
+64%{content:"Dev";}
+66%{content:"De";}
+68%{content:"D";}
+72%{content:"";}
+74%{content:"L";}
+76%{content:"La";}
+78%{content:"Lar";}
+80%{content:"Larr";}
+82%{content:"Larry";}
+84%{content:"Larry D";}
+86%{content:"Larry Da";}
+88%{content:"Larry Dan";}
+90%{content:"Larry Dani";}
+91%{content:"Larry Danie";}
+92%{content:"Larry Daniel";}
+93%{content:"Larry Daniels";}
+94%{content:"Larry Daniel";}
+95%{content:"Larry Danie";}
+96%{content:"Larry Dani";}
+97%{content:"Larry Dan";}
+98%{content:"Larry Da";}
+99%{content:"Larry D";}
+99%{content:"Larry ";}
+99%{content:"Larr";}
+99%{content:"Lar";}
+100%{content:"La";}
+100%{content:"L";}
+100%{content:"";}
+}
+.pro-bar{
+    height: 30px !important  ;
+}
+
+
+.btn-outline-black {
+  background-color: black !important;
+  color: white !important;
+}
+
+.btn-outline-black :hover {
+  background-color: white;
+  color: black;
+}
+#SERVICES h3::after {
+    content: "";
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 42%;
+    background-image: url(img/dots.png);
+  }
+  
+  .icon-circle {
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    background: #f4f4f4;
+    font-size: 2rem;
+    padding: 17px;
+    transition: all .5s;
+  }
+  .info-box {
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  .caption {
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .product:hover .caption {
+    opacity: 1;
+  }
+  .myslide{
+    width: 10px !important;
+    height: 10px  !important;
+    border-radius: 50%;}
+.icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.info-box:hover .icon-circle{
+
+  background-color: black;
+  color: white;
+}
+.icon1  {
+width: 40px;
+height: 40px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+border: 1px black;
+}
+.icon1 i{
+  color: black;
+}
+
+footer {
+  background: #1c1c1c;
+  padding: 30px;
+}
+.icon-circle:hover{
+  background-color: black;
+  color: white;
+}
+.post-img{
+  overflow: hidden;
+}
+.post-img img{
+transition: all 1.5s ease;
+}
+
+.card:hover  img{
+  transform: scale(1.5);
+}
+.bord{
+  background-image: url(img/dots.png);
+  background-repeat: repeat;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+  z-index: -1;
+}
